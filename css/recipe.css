@@ -1,8 +1,11 @@
-/* Stylesheet for recipel*/
 body.recipe {
     font-size: 11pt;
     background-image: url("../images/recipel/silverware.jpg");
     font-family: "Georgia", "Garamond", sans-serif;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+
 }
 
 a {
@@ -114,7 +117,7 @@ a {
 
 .recipe> .footer > .siteInfo > ul > li::after {
     content: "|";
-    position:fixed;
+    	
     right:0;
 }
 
