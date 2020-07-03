@@ -1,0 +1,18 @@
+.container{
+	background-color: lightgray;
+	overflow: hidden;
+	padding: 10px;
+	width: 500px;
+}
+
+
+#col1, #col2{
+	background-color: lightblue;
+	float: right;
+	width: 100px;
+	margin-left: 10px;
+}
+
+h1{
+	background-color: yellow;
+}
