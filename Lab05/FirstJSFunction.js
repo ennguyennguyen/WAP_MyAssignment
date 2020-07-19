@@ -16,7 +16,7 @@ function maxOfThree(a, b, c) {
 function isVowel(char) {
     let result = false;
     if (char.length == 1){
-        if (char == "A" || char == "E" || char == "o" || char == "I" || char == "U") {
+        if (char == "A" || char == "E" || char == "O" || char == "I" || char == "U") {
             result = true;
         }
     }
@@ -58,7 +58,7 @@ function findLongestWord(arr) {
 
 // Function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i
 function filterLongWords(arr, i){
-    return words.filter(word => word.length >= i);
+    return arr.filter(word => word.length >= i);
 }
 
 // Modify the jsfiddle
