@@ -8,7 +8,7 @@ function max(a, b) {
 }
 
 // Function maxOfThree() that takes three numbers as arguments and returns the largest of them
-function max(a, b, c) {
+function maxOfThree(a, b, c) {
 	return max(max(a, b), c);
 }
 
@@ -137,7 +137,7 @@ function compareObjects(arr1,arr2){
                 myFunctionTest(20, function(){return max( 20, 10); } )
                 );
 
-    //maxOfthree function test
+    //maxOfThree function test
     console.log("Expected output of maxOfThree(5, 4, 44) is 44 " +
                 myFunctionTest(44, function(){return maxOfThree( 5, 4, 44); } )
                 );
