@@ -44,6 +44,7 @@ function onStopClick() {
     btnStart.disabled = false;
 
     stopInterval();
+
     let textArea = document.getElementById("text-area");
     textArea.value = text;
 }
