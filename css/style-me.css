@@ -1,23 +1,20 @@
 body {
-    font-family:'Open Sans',sans-serif;
-    font-size:13px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 11px;
     background-color: #F8FAED;
     margin: 0 auto;
 }
 
 .banner::before {
-    background-position: center;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    content: "";
+    background-color: #D9D9D9;
     display: block;
     position: absolute;
-    margin-left: 0;
     min-width: 100%;
     min-height: 140px;
-    z-index: -1;
     opacity: 0.6;
-    background-color: #BBD25A;
+    background-position: center;
+    z-index: -1;
+    content: "";
 }
 
 div.header img#avatar {
@@ -33,11 +30,53 @@ div.header h1 {
 }
 
 div.content {
-    min-height: 300px;
+    min-height: auto;
     padding: 15px;
 }
 
+.labs li {
+    border-radius: 10px;
+    border: solid 2px #eaeaea;
+    list-style-type: none;
+    text-align: center;
+    margin: 2% 25%;
+}
+
 .labs li a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: #273c75;
+}
+
+.footer {
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+    opacity: 0.6;
+    background-color: #D9D9D9;
+    padding: 15px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .site-info {
+    float: left;
+}
+
+.footer .w3c-validator {
+    float: right;
+    padding-right: 30px;
+}
+
+#menu {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+#menu a {
     text-decoration: none;
 }
 
@@ -55,49 +94,3 @@ div.content {
     height: 200px;
     width: 200px;
 }
-
-/* Footer stylesheet */
-.footer {
-    border-top: 1px solid #ddd;
-    overflow: hidden;
-    padding: 15px;
-    opacity: 0.6;
-    background-color: #BBD25A;
-}
-
-.footer-onBottom {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer .site-info {
-	float: left;
-}
-
-.footer .w3c-validator {
-    float: right;
-    padding-right: 30px;
-}
-
-#menu {
-    position: absolute;
-    top: 15px;
-    right: 20px;
-}
-
-#menu a {
-    color: white;
-}
-
-.fontYellow {
-    color: #fde05b;
-}
-
-.dropCap {
-    font-family: Georgia;
-    font-size: 20px;
-    line-height: 12px;
-    padding-bottom: 4px;
-    padding-left: 10px;
-  }
