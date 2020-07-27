@@ -37,3 +37,12 @@ legend {
 #validators {
     text-align: right;
 }
+
+#part2 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#part2 > a {
+    text-decoration: none;
+}
